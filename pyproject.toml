@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "veil_hub"
+version = "0.0.1"
+description = "A deck for veil validation instances"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "veil_hub"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
